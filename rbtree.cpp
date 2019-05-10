@@ -1,5 +1,21 @@
 // reference: https://www.jianshu.com/p/9134a977d532
 
+// 1. node is red or black
+// 2. root is black
+// 3. all of leaf is black(in the end of branch)
+// 4. all of red node have two black child node
+// 5. all of simplist path from any node to any leaf include the same number of black node
+// e.g.
+//                                    5(b)
+//
+//                    4(r)                                71(r)
+//
+//          15(b)              20(b)              30(b)             41(b)
+//
+//      NIL      43(R)     NIL       NIL      NIL        NIL   23(r)      31(r)
+//
+//            NIL     NIL                                   NIL    NIL NIL     NIL
+
 #include <vector>
 #include <assert.h>
 #include <stdio.h>
