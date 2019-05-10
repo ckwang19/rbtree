@@ -12,9 +12,9 @@
 //
 //          15(b)              20(b)              30(b)             41(b)
 //
-//      NIL      43(R)     NIL       NIL      NIL        NIL   23(r)      31(r)
+//      LEAF      43(R)     LEAF     LEAF    LEAF      LEAF   23(r)      31(r)
 //
-//            NIL     NIL                                   NIL    NIL NIL     NIL
+//            LEAF     LEAF                                 LEAF  LEAF LEAF   LEAF
 
 #include <vector>
 #include <assert.h>
